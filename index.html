@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnooIt: Smart Tab Reminder for Chrome</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: '#f97316',
+                        dark: '#1F2937',
+                        light: '#F3F4F6',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-btn {
+            background-image: linear-gradient(to right, #f97316, #fb923c);
+            transition: all 0.3s ease;
+        }
+        .gradient-btn:hover {
+            background-image: linear-gradient(to right, #ea580c, #f97316);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(249, 115, 22, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-light font-sans text-dark">
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html">
+                <div class="flex items-center">
+                    <img src="assets/logo-128.png" alt="SnooIt Logo" class="w-8 h-8 mr-2">
+                    <span class="text-2xl font-bold text-brand">SnooIt</span>
+                </div>
+            </a>
+            <div>
+                <a href="#features" class="mx-2 hover:text-brand">Features</a>
+                <a href="#download" class="mx-2 hover:text-brand">Download</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-white py-20">
+            <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h1 class="text-4xl font-bold mb-4">SnooIt: Smart Tab Reminder for Chrome</h1>
+                    <p class="text-xl mb-8">Never forget important content again!</p>
+                    <a href="#" class="gradient-btn text-white font-bold py-3 px-6 rounded-full inline-block">Add to Chrome</a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="assets/SnooIt_1280_800.png" alt="SnooIt Screenshot" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Key Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-2 text-brand">Quick Presets</h3>
+                        <p>Set reminders with ease using presets from 15 minutes to 2 days.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-2 text-brand">Custom Scheduling</h3>
+                        <p>Choose your own reminder time for maximum flexibility.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-2 text-brand">Visual Reminder List</h3>
+                        <p>Keep track of all your reminders in one convenient place.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-2 text-brand">One-Click Creation</h3>
+                        <p>Set reminders quickly with just a single click.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-2 text-brand">Smart Notifications</h3>
+                        <p>Get timely alerts when it's time to revisit your saved content.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-2 text-brand">Lightweight Design</h3>
+                        <p>Enjoy a seamless browsing experience with our efficient extension.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="download" class="bg-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">Ready to optimize your browsing?</h2>
+                <p class="text-xl mb-8">Add SnooIt to Chrome today and never lose track of important content again!</p>
+                <a href="#" class="gradient-btn text-white font-bold py-3 px-8 rounded-full inline-block text-lg">Get SnooIt Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 SnooIt. All rights reserved.</p>
+            <a href="privacy-policy.html" class="text-brand hover:underline mt-2 inline-block">Privacy Policy</a>
+        </div>
+    </footer>
+</body>
+</html>

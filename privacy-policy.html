@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SnooIt</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: '#f97316',
+                        dark: '#1F2937',
+                        light: '#F3F4F6',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-light font-sans text-dark">
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html">
+                <div class="flex items-center">
+                    <img src="assets/logo-128.png" alt="SnooIt Logo" class="w-8 h-8 mr-2">
+                    <span class="text-2xl font-bold text-brand">SnooIt</span>
+                </div>
+            </a>
+            <div>
+                <a href="index.html" class="mx-2 hover:text-brand">Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+        <h1 class="text-3xl font-bold mb-6">SnooIt Privacy Policy</h1>
+        <p class="mb-4"><strong>Effective Date: [Date]</strong></p>
+        <p class="mb-6">At SnooIt, we respect your privacy and are committed to protecting any personal information you share with us. This Privacy Policy outlines how we collect, use, and safeguard your data when you use our Chrome extension.</p>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">1. Data Collection and Usage</h2>
+            <h3 class="text-xl font-semibold mb-2">Reminders Data:</h3>
+            <p class="mb-4">SnooIt allows you to set reminders for web pages, which includes saving the URL, reminder time, and any notes you choose to add. This data is stored using <code class="bg-gray-100 p-1 rounded">chrome.storage.sync</code>, enabling you to access your reminders across different devices signed into your Chrome account.</p>
+            <h3 class="text-xl font-semibold mb-2">No Personal Identifiable Information (PII):</h3>
+            <p>SnooIt does not collect or store any personal identifiable information beyond the reminder data you set. We do not access or store your browsing history or any other personal data.</p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">2. Permissions and Data Handling</h2>
+            <h3 class="text-xl font-semibold mb-2">Permissions Used:</h3>
+            <ul class="list-disc pl-6 mb-4">
+                <li><strong>Storage:</strong> To save reminder data across sessions and devices.</li>
+                <li><strong>Alarms:</strong> To schedule and manage reminder notifications.</li>
+                <li><strong>Notifications:</strong> To alert you when your reminders are due.</li>
+                <li><strong>ActiveTab:</strong> To access the URL of the current tab for setting reminders.</li>
+            </ul>
+            <h3 class="text-xl font-semibold mb-2">Data Security:</h3>
+            <p>All reminder data is securely stored using Chrome's <code class="bg-gray-100 p-1 rounded">storage.sync</code> API. This ensures that your data is synchronized across devices while maintaining security and privacy.</p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">3. Data Sharing and Disclosure</h2>
+            <p>SnooIt does not share, sell, or distribute your data to third parties. All data processed by the extension is used solely for providing the core functionality of setting and managing reminders.</p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">4. User Control</h2>
+            <p>You have full control over your reminders and can edit or delete them at any time. Since we use <code class="bg-gray-100 p-1 rounded">chrome.storage.sync</code>, any changes you make will be reflected across all your devices using the same Chrome account.</p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">5. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Any changes will be reflected here, and we encourage you to review this policy periodically.</p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">6. Contact Us</h2>
+            <p>If you have any questions or concerns about this Privacy Policy or the SnooIt extension, please contact us at [Your Contact Information].</p>
+        </section>
+
+        <p class="mt-8 font-bold">By using SnooIt, you agree to this Privacy Policy.</p>
+    </main>
+
+    <footer class="bg-dark text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 SnooIt. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
