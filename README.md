@@ -7,7 +7,7 @@ SnooIt is a Chrome extension that helps you manage your web browsing efficiently
 ## 🌐 Quick Links
 
 - [Official Website](https://snooit.kikitop.com/)
-- [Download Extension](https://snooit.kikitop.com/)
+- [Download Extension](https://chromewebstore.google.com/detail/lmnlbemfpekcgegpjfahkmjkfjgmdgeh)
 - [Request a New Feature](https://github.com/thuansb/SnooIt/issues/new)
 
 ## 🎯 About SnooIt
