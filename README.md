@@ -1,6 +1,6 @@
 # SnooIt: Smart Tab Reminder
 
-SnooIt is a powerful Chrome extension that helps you manage your web browsing efficiently by allowing you to set timed reminders for web pages.
+SnooIt is a Chrome extension that helps you manage your web browsing efficiently by allowing you to set timed reminders for web pages.
 
 ![SnooIt Logo](assets/logo-128.png)
 
